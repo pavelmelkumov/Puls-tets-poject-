@@ -1,8 +1,11 @@
-@import url(/src/base/_variables.scss);
-@import '../blocks/_promo.scss';
+@import url(/src/sass/base/_variables.scss);
+
 
 * {
     font-family: "Museo Sans Cyrl W03 100", sans-serif;
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 }
 
 .container {
@@ -10,4 +13,5 @@
     margin: 0 auto;
 }
 
-
+@import '../sass/blocks/promo.scss';
+@import '../sass/blocks/header.scss';
