@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
     &__logo {
@@ -10,7 +10,7 @@
          }
     }
 
-    &__header__official {
+    &__official {
        
         color: white;
         font-size: 12px;
