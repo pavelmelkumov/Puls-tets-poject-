@@ -11,7 +11,12 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
+
 @import 'blocks/advantages';
 @import 'blocks/_buttons';
 @import '../sass/blocks/promo.scss';
 @import '../sass/blocks/header.scss';
+@import '../sass/blocks/consultation';
+@import './blocks/titles';
+@import './blocks/forms';
